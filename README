@@ -1,0 +1,21 @@
+Survival Duration Calculator
+Thought Process   :   The idea for this project stemmed from a common curiosity many of us have: just how much time have we actually spent on this Earth? 
+It's fascinating to break down our age into different time units and see the vast numbers that accumulate over years of living. 
+This project aims to provide an easy way to satisfy this curiosity with precise calculations.
+Design and Development :
+User-Friendliness: The first priority was to create a tool that anyone could use without hassle.
+The script prompts users for their age and desired time unit in a straightforward manner.
+
+Flexibility in Input: To accommodate different user preferences, the script accepts both full names and abbreviations for time units. 
+For example, users can input 'Months' or just 'M', and the script will understand both.
+
+Accuracy: Considering leap years, the script uses accurate conversion factors:
+
+1 year = 12 months
+1 year ≈ 52.1775 weeks
+1 year ≈ 365.25 days
+1 day = 24 hours
+1 hour = 60 minutes
+1 minute = 60 seconds
+Error Handling: The script is designed to handle invalid inputs gracefully, providing clear error messages to guide the user.
+Natural Language Processing: To make the input process smoother, the script standardizes the time unit input, converting various forms to a consistent internal representation.
